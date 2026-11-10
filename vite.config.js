@@ -9,7 +9,7 @@ export default defineConfig({
   root: "src",
   publicDir: resolve(__dirname, "public"),
   envDir: resolve(__dirname),
-
+  base: "/vite-module3-academy/",
   css: {
     transformer: "lightningcss",
     lightningcss: {
