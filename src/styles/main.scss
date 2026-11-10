@@ -1,0 +1,24 @@
+@use "reset";
+@use "variables";
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: variables.$text-color;
+  background-color: variables.$bg-color;
+}
+
+a {
+  color: variables.$accent-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
